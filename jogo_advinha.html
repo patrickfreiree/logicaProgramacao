@@ -1,0 +1,50 @@
+<meta charset="UFT-8">
+
+<h1> Jogo advinha</h1>
+
+<script>
+
+function pulaLinha(){
+
+    document.write("<br>")
+}
+
+function mostra(frase){
+
+    document.write(frase)
+    pulaLinha();
+}
+    // math.random -- faz aleatório * N ex:10
+    // Math.round -- arredonda
+
+var numeroPensado = Math.round(Math.random() * 10);
+var chute = 1;
+
+while (chute <=3) {
+    
+    var chute = parseInt(prompt("Advinhe o número que o computador escolheu:"));
+     
+    if(chute == numeroPensado){
+
+        mostra("Você acertou! O número é "+numeroPensado);
+        break;
+
+    } else {
+        
+        if (chute > numeroPensado) {
+            alert("Você errou. O número foi maior ");
+            }
+            else { 
+            alert("Você errou. O número foi menor");
+            }
+        
+    }
+
+    chute++;
+}
+
+mostra("FIM")
+
+
+
+</script>
