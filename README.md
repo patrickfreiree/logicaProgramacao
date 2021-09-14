@@ -1,3 +1,4 @@
-# Logica de Programação 01
+# Logica de Programação.
 
-Programinhas e desafios realizados em curso de imersão ALURA. 
+Programinhas e desafios realizados em curso de imersão ALURA.
+
