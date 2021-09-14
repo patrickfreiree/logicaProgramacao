@@ -1,3 +1,3 @@
-# Logica de Programação 01
+# Logica de Programação.
 
 Programinhas realizados em curso ALURA. 
